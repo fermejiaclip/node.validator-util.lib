@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "rootDir": "src",
+    "noImplicitAny": false,
+    "declaration": true,
+    "outDir": "dist"
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "jest.config.ts"],
+  "typedocOptions": {
+    "out": "docs",
+    "exclude": "**/*.spec.ts",
+    "theme": "./node_modules/typedoc-github-wiki-theme/dist",
+    "excludePrivate": true,
+    "hideBreadcrumbs": true,
+    "publicPath": "https://github.com/ClipMX/node.validator-util-lib/wiki/",
+    "namedAnchors": true
+  }
+}

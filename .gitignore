@@ -1,0 +1,9 @@
+.vscode
+coverage
+node_modules
+event.json
+/tests/*.zip
+*.out.txt
+sam-template.yaml
+/dist
+clipmx-reconciliation-dd-common-lib-*.tgz

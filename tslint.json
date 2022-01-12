@@ -1,0 +1,28 @@
+{
+  "extends": "tslint:recommended",
+  "linterOptions": {
+    "exclude": ["**/*.spec.ts"]
+  },
+  "rules": {
+    "interface-name": false,
+    "variable-name": {
+      "options": ["allow-leading-underscore"]
+    },
+    "no-console": false,
+    "no-empty": false,
+    "no-floating-promises": true,
+    "trailing-comma": [
+      false,
+      {
+        "multiline": {
+          "imports": "ignore",
+          "exports": "ignore",
+          "properties": "always",
+          "functions": "always",
+          "objects": "always",
+          "typeLiterals": "always"
+        }
+      }
+    ]
+  }
+}
